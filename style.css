@@ -7,7 +7,7 @@
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: flex;
     height: 100vh;
 }
 
@@ -18,18 +18,18 @@
 }
 
 .icon{
-    width: 200px;
+    width: 150px;
     float: left;
-    height: 70px;
+    height: 60px;
 }
 
 .logo{
     color: #f70073;
     font-size: 35px;
     font-family: Arial;
-    padding-left: 20px;
+    padding-left: 10px;
     float: left;
-    padding-top: 10px;
+    padding-top: 5px;
     margin-top: 5px
 }
 
@@ -166,8 +166,8 @@ ul li a:hover{
 }
 
 .form{
-    width: 250px;
-    height: 380px;
+    width: 150px;
+    height: 300px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
@@ -256,8 +256,9 @@ ul li a:hover{
 .icons ion-icon{
     color: #fff;
     font-size: 30px;
-    padding-left: 15px;
-    padding-top: 5px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
     transition: 0.3s ease;
 }
 .icons ion-icon:hover{
@@ -496,8 +497,9 @@ body
     color: #fff;
     font-size: 30px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
     transition: 0.3s ease;
+    
 }
 .icons ion-icon:hover{
     color: #f70073;
